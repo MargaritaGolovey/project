@@ -4,30 +4,28 @@
   box-sizing: border-box; }
 
 header {
-  min-height: 740px;
-  display: flex; }
+  padding: 80px; }
 
-.header__fon {
+.wrapper {
   background: url("../img/ocean.jpg") no-repeat;
   background-size: 100%;
-  height: 100%;
-  position: relative;
-  padding-left: 90px;
-  padding-right: 100px; }
-.header__headline {
+  min-height: 740px; }
+
+.header__logo {
   color: #ffffff;
-  margin-top: 50px;
-  position: absolute; }
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline; }
 .header__nav {
-  flex: 0 0 50%; }
+  display: inline-block;
+  margin-left: 500px; }
   .header__nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none; }
   .header__nav li {
-    margin: 0 20px;
-    position: absolut;
-    margin-top: 75px; }
+    margin: 0 20px; }
   .header__nav a {
     color: #ffffff;
     padding: 0 15px; }
@@ -36,14 +34,14 @@ header {
     text-decoration: none;
     border: 1px solid #ffffff;
     border-radius: 10px; }
-.header__article {
-  margin-top: 200px; }
-  .header__article h2, .header__article p {
+
+.article {
+  margin-top: 100px; }
+  .article h1, .article p {
     text-align: center;
     color: #ffffff;
-    font-weight: lighter;
-    position: absolut; }
-  .header__article h2 {
+    font-weight: lighter; }
+  .article h1 {
     margin-bottom: 50px;
     word-spacing: 10px;
     letter-spacing: 5px; }

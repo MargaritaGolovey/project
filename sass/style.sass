@@ -5,35 +5,29 @@ $primaryColor: #ffffff
 	padding: 0
 	box-sizing: border-box
 header
+	padding: 80px
+.wrapper
+	background: url('../img/ocean.jpg') no-repeat
+	background-size: 100%
 	min-height: 740px
-	display: flex
-	
-.header
-	&__fon
-		background: url('../img/ocean.jpg') no-repeat
-		background-size: 100%
-		height: 100%	
-		position: relative
-		padding-left: 90px
-		padding-right: 100px
-		
-	&__headline
+.header	
+	&__logo
 		color: $primaryColor
-		// margin-left: 80px
-		margin-top: 50px
-		position: absolute
+		font-weight: bold
+		font-size: 30px
+		text-transform: uppercase
+		display: inline
+		
 	&__nav
-		flex: 0 0 50%
+		display: inline-block
+		margin-left: 500px
 		ul
 			display: flex
-			// align-items: flex-start
 			justify-content: flex-end
 			list-style: none
+
 		li	
 			margin: 0 20px
-			position: absolut
-			margin-top: 75px
-
 			
 		a 
 			color: $primaryColor	
@@ -43,19 +37,18 @@ header
 			text-decoration: none
 			border: 1px solid #ffffff
 			border-radius: 10px
-	&__article
-		margin-top: 200px
 
+.article
+	margin-top: 100px
 
-		h2,p
-			text-align: center	
-			color: $primaryColor
-			font-weight: lighter
-			position: absolut
-		h2
-			margin-bottom: 50px
-			word-spacing: 10px	
-			letter-spacing: 5px
+	h1,p
+		text-align: center	
+		color: $primaryColor
+		font-weight: lighter
+	h1
+		margin-bottom: 50px
+		word-spacing: 10px	
+		letter-spacing: 5px
 .content
 	margin-top: 115px
 	margin-left: 260px
